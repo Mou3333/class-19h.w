@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    box-sizing:border-box;
+}
+.cat-container{
+    padding:20px;
+    background-color:rgb(165, 210, 240);
+    width:25%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius:8px;
+}
+.cat-container button{
+    background-color:aquamarine;
+    color:rgb(185, 70, 147);
+    padding:10px;
+    border:0;
+    font-size:17px;
+    margin-bottom:17px;
+}
+.cat-box input{
+    width:100%;
+    padding:12px;
+    padding-right: 14px;
+    font-size:17px;
+    margin:8px 0;
+  
+}
+.cat-box{
+    position:relative;
+}
+.close-icon{
+    position:absolute;
+    width:32px;
+    top:16px;
+    right:2px;
+}
